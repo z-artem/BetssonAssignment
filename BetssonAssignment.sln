@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Engine", "EscapeMines.Engine\EscapeMines.Engine.csproj", "{67B2BC72-45C7-43E5-BD97-7D620EA30AAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.App", "EscapeMines.App\EscapeMines.App.csproj", "{24987B32-1C74-4DCB-AA59-A0A44A3CAA33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Common", "EscapeMines.Common\EscapeMines.Common.csproj", "{3C7B8478-A2D0-43D5-B908-1489FE301110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.IO", "EscapeMines.IO\EscapeMines.IO.csproj", "{69644D4C-46B5-4324-A1A5-F2B8AD777778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CB6A133F-23FB-4213-B991-9E74CCD21A9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscapeMines.Engine.Tests", "tests\EscapeMines.Engine.Tests\EscapeMines.Engine.Tests.csproj", "{CCDA9FED-9F5C-4C55-AEDD-F71361593A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscapeMines.IO.Tests", "tests\EscapeMines.IO.Tests\EscapeMines.IO.Tests.csproj", "{404803FA-28FD-4521-9B12-8CA67A300E9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B2BC72-45C7-43E5-BD97-7D620EA30AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B2BC72-45C7-43E5-BD97-7D620EA30AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B2BC72-45C7-43E5-BD97-7D620EA30AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B2BC72-45C7-43E5-BD97-7D620EA30AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24987B32-1C74-4DCB-AA59-A0A44A3CAA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24987B32-1C74-4DCB-AA59-A0A44A3CAA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24987B32-1C74-4DCB-AA59-A0A44A3CAA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24987B32-1C74-4DCB-AA59-A0A44A3CAA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7B8478-A2D0-43D5-B908-1489FE301110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7B8478-A2D0-43D5-B908-1489FE301110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7B8478-A2D0-43D5-B908-1489FE301110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7B8478-A2D0-43D5-B908-1489FE301110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69644D4C-46B5-4324-A1A5-F2B8AD777778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69644D4C-46B5-4324-A1A5-F2B8AD777778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69644D4C-46B5-4324-A1A5-F2B8AD777778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69644D4C-46B5-4324-A1A5-F2B8AD777778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDA9FED-9F5C-4C55-AEDD-F71361593A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDA9FED-9F5C-4C55-AEDD-F71361593A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDA9FED-9F5C-4C55-AEDD-F71361593A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDA9FED-9F5C-4C55-AEDD-F71361593A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404803FA-28FD-4521-9B12-8CA67A300E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404803FA-28FD-4521-9B12-8CA67A300E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404803FA-28FD-4521-9B12-8CA67A300E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404803FA-28FD-4521-9B12-8CA67A300E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCDA9FED-9F5C-4C55-AEDD-F71361593A74} = {CB6A133F-23FB-4213-B991-9E74CCD21A9C}
+		{404803FA-28FD-4521-9B12-8CA67A300E9F} = {CB6A133F-23FB-4213-B991-9E74CCD21A9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B85ED9D-5F6E-40A5-95C9-65A285182008}
+	EndGlobalSection
+EndGlobal
